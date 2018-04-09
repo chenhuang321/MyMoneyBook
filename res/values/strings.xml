@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">我的简易账本</string>
+    <string name="money_left">我的余额</string>
+    <string name="income_this_month">本月收入</string>
+    <string name="outcome_current">当前本月支出</string>
+    <string name="options">账单选项</string>
+    <string name="record_bills">我要记账</string>
+    <string name="manage_bills">我要查账</string>
+    <string name="view_bills">账单总览</string>
+    <string name="my_account">账户</string>
+    <string name="my_plans">计划详情</string>
+    <string name="multi_record">多记计</string>
+    <string name="me">我</string>
+    <string name="BBT_1">Bottom bar button 1 - My Account</string>
+    <string name="BBT_2">Bottom bar button 2 - My Plans</string>
+    <string name="BBT_3">Bottom bar button 3 - My Records</string>
+    <string name="BBT_4">Bottom bar button 4 - My Setting</string>
+    <string name="empty_money">00.0</string>
+    <string name="desc_back_img">This is a back image!</string>
+    <string name="listview_money">我的账簿</string>
+    <string name="size">size</string>
+    <string name="no_data">no data</string>
+    <string name="desc_ions_1">Category icons!</string>
+    <string name="record_one">记一笔</string>
+    <string name="category">类型</string>
+    <string name="time">时间</string>
+    <string name="fee">费用</string>
+    <string name="note">备注</string>
+    <string name="save">保存</string>
+    <string name="cancel">重置</string>
+    <string name="incomes">收入</string>
+    <string name="outcomes">支出</string>
+    <string name="error_incomplete_information">请输入所有信息！</string>
+    <string name="error_invalid_fee_format">金额格式有误！</string>
+    <string name="success_saved">您的数据成功保存至本地！</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_main_tab_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/wechat_classic"
+    >
+    <!--android:background="@drawable/bottom_bar" >-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_weixin"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_message"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:clickable="false"
+                android:src="@drawable/tab1_chat"
+                android:contentDescription="@string/BBT_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_friend"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_friend"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:clickable="false"
+                android:src="@drawable/tab2_heads"
+                android:contentDescription="@string/BBT_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_plans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_contact"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_contact"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:clickable="false"
+                android:src="@drawable/tab3_address"
+                android:contentDescription="@string/BBT_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multi_record" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_setting"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_setting"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:clickable="false"
+                android:src="@drawable/tab4_setting"
+                android:contentDescription="@string/BBT_4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/me" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

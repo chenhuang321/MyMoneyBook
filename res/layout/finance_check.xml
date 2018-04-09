@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/我的余额"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="90dp"
+        android:paddingEnd="80dp"
+        android:paddingTop="160dp"
+        android:paddingBottom="10dp"
+        android:text="@string/money_left"
+        />
+
+    <TextView
+        android:id="@+id/当前本月支出"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="90dp"
+        android:paddingEnd="52dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/我的余额"
+        android:text="@string/outcome_current"
+        />
+
+    <TextView
+        android:id="@+id/本月收入"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="90dp"
+        android:paddingEnd="80dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/当前本月支出"
+        android:text="@string/income_this_month"
+        />
+
+    <TextView
+        android:id="@+id/value_money_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/我的余额"
+        android:paddingBottom="10dp"
+        android:paddingTop="160dp"
+        android:text="@string/empty_money" />
+
+    <TextView
+        android:id="@+id/value_payment_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/当前本月支出"
+        android:layout_below="@id/value_money_left"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/empty_money" />
+
+    <TextView
+        android:id="@+id/value_income_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/本月收入"
+        android:layout_below="@id/value_payment_current"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/empty_money" />
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/file"
+        android:title="@string/options" >
+        <!-- "bills" submenu -->
+        <menu>
+            <item android:id="@+id/我要记账"
+                android:title="@string/record_bills" />
+            <item android:id="@+id/我要查账"
+                android:title="@string/manage_bills" />
+            <item android:id="@+id/账单总览"
+                android:title="@string/view_bills"/>
+        </menu>
+    </item>
+</menu>
